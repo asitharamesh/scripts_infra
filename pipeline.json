@@ -1,1 +1,1 @@
-{"pipeline": {"name": "Infra Pipeline", "stages": ["Terraform Validate", "Security Scan", "Deploy"]}}
+{"pipeline": {"name": "Standard Build Pipeline", "stages": ["Fetch Code", "Environment Setup", "Security Scan", "Unit Tests", "Build Artifact", "Push to Registry"]}}
