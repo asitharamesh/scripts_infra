@@ -1,0 +1,1 @@
+{"pipeline": {"name": "Infra Pipeline", "stages": ["Terraform Validate", "Security Scan", "Deploy"]}}
